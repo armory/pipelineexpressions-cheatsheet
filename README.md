@@ -14,6 +14,12 @@ Bracket notation ('[]'), is useful when the json key name contains spaces or per
 
 ## Helper Functions
 
+| Expression                            | Description                                          |
+| :---                                  | :---                                                 |
+| ${#judgment("judgment stage name")}   | useful for execution options or check preconditions  |
+| ${#stage("stagename})}                | get the stage json including outputs, context        |
+| ${#root}                              | get the current pipeline context, useful for getting the pipeline id |
+
 
 ## White Listed Java classes
 reference: https://spinnaker.io/reference/pipeline/expressions/#allowed-java-classes
