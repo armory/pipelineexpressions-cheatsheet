@@ -1,5 +1,5 @@
-# Pipeline Expressions
-Cheatsheet for Pipeline Expressions (aka SpEL) for Spinnaker
+# Pipeline Expressions Cheatsheet
+Tips & Tricks and Cheatsheet for Pipeline Expressions (aka SpEL) for Spinnaker
 
 ## Bracket `[]` vs Dot `.` Notations
 Bracket notation ('[]'), is useful when the json key name contains spaces or periods. e.g. when parsing kubernetes annotations or labels.  `manifest["labels"]["app.kubernetes.io/name"]`
